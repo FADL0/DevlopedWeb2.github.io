@@ -1,0 +1,761 @@
+
+
+
+/* details */
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  /* end details */
+
+/* Header */
+.header{
+background-color: white;
+display: flex;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.headerlist1{
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+.headerlist1 ul{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+.headerlist1 a{
+    color: black;
+    font-size: x-large;
+    text-decoration: none;
+}
+.headerlist1 img{
+    width: 12px;
+}
+
+.headerlist2{
+    display: inline-block;
+    padding: 2rem 2rem;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+
+}
+.headerlist2 ul{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+.headerlist2 a{
+    color: black;
+    font-size: x-large;
+    text-decoration: none;
+}
+.signup{
+    border-radius: 5px;
+  background-color: gray;
+  height: 60px;
+  width: 235px;
+  position: relative;
+    bottom: 10px;
+    right: 35px;
+
+}
+.signup a{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    
+}
+.Image{
+    display: inline-block;
+    padding: 1rem 3rem;
+    vertical-align: middle;
+}
+.Image img{
+    width: 200px;
+
+}
+.icon{
+   
+    display: none;
+  padding: 1.4rem 1rem;
+
+  }
+  .icon img{
+    width: 25px;
+  }
+/* End Header */
+   
+
+/* Announcment */
+    
+.anc {
+    
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 25px;
+    
+    
+}
+.anc p{
+    position: relative;
+    box-sizing: border-box;
+    
+    
+}
+
+.close{
+    padding: auto;
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+
+
+/* End Announcment */
+
+/* FirstPage */
+
+/* leftside */
+.leftside{
+    padding: 70px;
+    display: inline-block
+    
+}
+.leftside h1{
+    font-size: 90px;
+    font-family: sans-serif;
+
+}
+ .leftside p{
+    padding-top: 80PX;
+    padding-bottom: 80PX;
+    font-size: 32px;
+    position: relative;
+    bottom: 15px;
+ }
+ .leftside img{
+    display: inline;
+    width: 45px;
+    transform: rotate(270deg);
+ }
+ .whiteboard a {
+    text-decoration: none;
+    color: black;
+ }
+ .whiteboard{
+    padding-top: 20px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #f54c21 15%, #e0697d 10%);
+    width: 250px;
+ }
+ .whiteboard p{
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    left: 40px;
+ }
+ .whiteboard img{
+    width: 7%;
+    position: relative;
+    bottom: 8px;
+    left: 8px;
+ }
+
+ /* End leftside */
+ /* Rightside */
+
+ .rightside{
+    display: inline;
+    position: relative;
+    top: 70px;
+
+   
+ }
+ .rightside img{
+    width: 100vh;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.575);
+  
+ }
+
+ /* End Right */
+
+ /* End First Page */
+
+ /* Second Page */
+
+ .mindstuff{
+    background-color: rgba(63, 125, 218, 0.911);
+    height: 1250px;
+    position: relative;
+    top: 300px;
+ }
+
+ .mindstuff h1{
+    font-size: 120px;
+    font-family:none;
+    display: block;
+ }
+ 
+ .mindmerge{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 150px;
+ }
+ .mindmerge img{
+    display: flex;
+    width: 800px;
+ }
+ .mindmerge p {
+   
+    padding: 40px;
+    display: flex;
+    font-size: 45px;
+ }
+
+ .Newwhiteboard{
+    padding-top: 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #f54c21 15%, #e0697d 10%);
+    width: 250px;
+    position: relative;
+    left: 40px;
+    top: 50px;
+ }
+ .Newwhiteboard img{
+    width: 7%;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    transform: rotate(270deg);
+ }
+ .Newwhiteboard a {
+    text-decoration: none;
+    color: black;
+ }
+
+ 
+ .Newwhiteboard p{
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    bottom: 15px;
+    left: 30px;
+ }
+ .datboldfont{
+    font-weight: bold;
+ }
+ /* Second Page  end */
+
+
+/* third Page */
+.Rothchild{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 200px;
+    height: 1250px;
+    position: relative;
+    top: 150px;
+}
+.Rothchild section ul{
+    list-style: none;
+}
+.interlinked{
+    display: flex;
+    padding-right: 200px;
+
+}
+.underlineJ{
+    background-color: rgba(189, 18, 189, 0.922);
+    width: 250px;
+    height: 5px;
+    position: relative;
+    bottom: 40px;
+    left: 70px; 
+}
+.glitcheseverywherebruh li img{
+width: 230px;
+padding: 80px;
+}
+.glitcheseverywherebruh img{
+width: 180px;
+}
+
+
+.realtypeshi li img{
+    width: 300px;
+padding: 96px;
+
+}
+
+.Jacobrothchildisabitch{
+    background-color: rgb(174, 55, 174);
+    width: 666px;
+    height: 800px;
+}
+
+.Text1{
+    padding-left: 40px;
+    font-size: 40px;
+
+}
+
+.Text2{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+   font-weight: bold;
+   text-decoration: underline;
+   text-underline-offset: 10px;
+}
+.jacobboy{
+    display: flex;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.847);
+    text-align: left;
+    font-size: 18px;
+}
+.jacobboy img{
+    width: 200px;
+}
+.jacobboy h1{
+    padding-left: 40px;
+    padding-top: 60px;
+}
+.jacobboy p{
+    padding-left: 40px;
+}
+
+/* Summeray */
+.text{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+
+.weup a {
+    text-decoration: none;
+    color: black;
+ }
+ .weup{
+    padding-top: 20px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #f4970b 15%, #deff37 10%);
+    width: 250px;
+ }
+ .weup p{
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    left: 40px;
+ }
+ .weup img{
+    width: 7%;
+    position: relative;
+    bottom: 8px;
+    left: 8px;
+    transform: rotate(275deg);
+ }
+
+ .snootch{
+    padding-left: 15px;
+    padding-bottom: 50px;
+ }
+
+.real{
+    padding-bottom: 60px;
+}
+.seperate{
+    background-color: rgb(248, 248, 248);
+    height: 250px;
+
+}
+.bruh{
+    display: none;
+    padding-top: 20px;
+    background-color: rgba(96, 254, 156, 0.922);
+}
+
+.underlineA{
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 4px;
+    padding-left: 140px; 
+    position: relative;  
+    top: 20px;
+}
+
+  
+  summary {
+    font-size: 30px;
+    padding: 1rem;
+    padding-top: 50px;
+    display: block;
+  
+  
+    position: relative;
+    cursor: pointer;
+  }
+  
+ 
+  
+  /* THE MAGIC 🧙‍♀️ */
+
+  
+  details summary::-webkit-details-marker {
+    display:none;
+  }
+  
+  .Settingsfr{
+    color: white;
+    padding-right: 50px;
+  background-color: black;
+  height: 600px;
+  width: 300px;
+  position: relative;
+  left: 20px;
+  }
+  .Settingsfr img{
+width: 350px;
+  }
+
+  .Settingsfr p{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+      }
+      .Settingsfr h1{
+        padding-left: 20px;
+      }
+
+.underlineFree{
+    background-color: rgba(203, 213, 17, 0.922);
+    width: 160px;
+    height: 1px;
+    position: relative;
+    bottom: 20px;
+    left: 19px; 
+}
+     
+/* Fourth Page */
+.fourthpagefr{
+   
+    background-color: #efd1a4;
+    position: relative;
+    top: 100px;
+}
+.imsotired ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 200px;
+}
+.imsotired{
+    font-size: 40px;
+    padding: 50px;
+}
+ .fourthpagefr img{
+    padding-top: 200px;
+width: 255px;
+ }
+
+ .lastone ul{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 100px;
+ }
+ .line{
+    
+        background-color: rgba(189, 18, 189, 0.922);
+       height: 5px;
+      
+    
+ }
+ .color1{
+    background-color: #3571ff;
+ }
+ .color2{
+    background-color: #e3ff11;
+ }
+ .color3{
+    background-color: #fb1eff;
+ }
+ .color4{
+    background-color: #00ff2f;
+ }
+ .color5{
+    background-color: #a4009c;
+ }
+
+ .titless{
+    font-size: 50px;
+    text-align: center;
+    color: #000000b2;
+ }
+ 
+ /* Last thing i hope */
+
+ .ong{
+    background-color: rgb(255, 141, 211);
+    height: 800px;
+ }
+ .datfirst{
+    font-size: 30px;
+    padding-top: 200px;
+    padding-left: 750px;
+ }
+ .datsecond{
+    border-radius: 20px;
+    background: linear-gradient(90deg, #000000de 5%, #ffe816ce 1%);
+    font-size: 100px;
+    text-align: center;
+    height: 330px;
+    width: 700px;
+
+ }
+ .datsecond p{
+    padding-top: 90px;
+ }
+ .datsecond a{
+    color: black;
+    text-decoration: none;
+ }
+ .MOVENIGGA{
+    padding-top: 200px;
+    padding-left: 600px;
+ }
+ /* Mobile */
+ @media screen and (max-width: 1184px ) {
+    .ong{
+        height: 450px;
+    }
+    .datsecond p{
+        padding-top: 45px;
+     }
+    .datsecond{
+        border-radius: 20px;
+       
+        font-size: 40px;
+        text-align: center;
+        height: 150px;
+        width: 350px;
+    
+     }
+     
+    .datfirst{
+        font-size: 20px;
+        padding-top: 100px;
+        padding-left: 65px;
+        
+     }
+    .MOVENIGGA{
+        padding-top:100px;
+        padding-left: 20px;
+     }
+    .seperate{
+
+        height: 200px;
+    
+    }
+    .titless{
+        font-size: 30px;
+        
+     }
+    .fourthpagefr img{
+        padding-top: 100px;
+    width: 155px;
+     }
+    .lastone ul{
+        padding: 20px;
+        gap: 20px;
+        justify-content: center;
+     }
+    .imsotired ul{
+       
+        gap: 20px;
+    }
+    .fourthpagefr{
+   
+        background-color: #efd1a4;
+        position: relative;
+        top: 0px;
+    }
+    .imsotired{
+        font-size: 16px;
+        padding: 20px;
+    }
+    .imsotired p {
+        padding-top: 10px;
+        font-size: 26px;
+        
+    }
+    .bruh{
+        display: block;
+    }
+    .Jacobrothchildisabitch{
+        
+    height: 320px;
+    width: 390px;
+}
+    .Text1{
+        font-size: 25px;
+        padding-left: 13px;
+    }
+     .Text2{
+       display: none;
+    }
+    .Rothchild{
+    display: block;
+    padding-top: 50px;
+    height: 750px;
+    position: relative;
+    top: 50px;
+}
+    .underlineJ{
+        background-color: rgba(189, 18, 189, 0.922);
+        width: 120px;
+        height: 3px;
+        position: relative;
+        bottom: 60px;
+        left: 10px; 
+    }
+    .glitcheseverywherebruh li img{
+        width: 120px;
+        padding: 10px;
+        padding-bottom: 60px;
+        }
+    .realtypeshi li img{
+    width: 120px;
+padding: 20px;
+padding-bottom: 72px;
+
+}
+
+    .gone{
+    display: none;
+}
+    .mindstuff{
+        position: relative;
+        top: 150px;
+        height:  1250px; ;
+    }
+    .mindstuff h1{
+        font-size: 70px;
+       
+    }
+   
+    .mindmerge img{
+        display: flex;
+        width: 380px;
+        overflow-y: none;
+        
+     }
+     .mindmerge p{
+        font-size: 18px;
+     }
+     .Newwhiteboard img{
+        width: 20px;
+     }
+     .Newwhiteboard{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin: 20px;
+     }
+     .mindmerge{
+        display: block;
+     }
+
+    .header{
+        justify-content: space-between;
+    }
+    #menu{
+       display: none;
+    }
+    
+       .rightside{
+       
+           position: relative;
+           left: 0px;
+           bottom: 0px;
+           top: 10px;
+           box-shadow: 0 3px 10px rgba(0, 0, 0, 0.575);
+           overflow-y: none;
+       }
+       .rightside img{
+         padding: 20px;
+           width: 350px;
+           
+        }
+       .leftside{
+           padding: 10px;
+           
+       }
+       .leftside h1{
+           padding-top: 40px;
+           font-size: 35px;
+       }
+       .leftside p{
+           padding-top: 40px;
+           padding-bottom: 40px;
+           font-size: 18px;
+       }
+     
+     
+       .anc p{
+           position: relative;
+           left: 0px;
+           top: 5px;
+           font-size: x-small;
+       }
+       .headerlist2{
+           display: none;
+       }
+       .headerlist1{
+           display: none;
+       }
+       .icon{
+           display: flex;
+         right: auto;
+        
+       }
+       
+       .Image img{
+           width: 100px;
+       
+       }
+       .Image{
+           display: inline-block;
+           padding: 1rem 1rem;
+           vertical-align: middle;
+       }
+   }
+   /* End Mobile */
